@@ -3,4 +3,4 @@
 --skip-action-cable
 --skip-coffee
 --skip-test-unit
---template=~/template_5_2.rb
+--template=../template_5_2.rb
