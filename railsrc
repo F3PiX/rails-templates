@@ -1,0 +1,5 @@
+--database=postgresql
+--webpack
+--skip-action-cable
+--skip-coffee
+--template=~/template_5_2.rb
