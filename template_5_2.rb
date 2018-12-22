@@ -4,8 +4,6 @@ gem_group :development, :test do
   gem 'better_errors'
 end
 
-gsub_file "Gemfile", /^gem\s+["']coffee-rails["'].*$/, "# Todo Remove coffeescript comment ^"
-
 append_to_file "Gemfile", "# TODO Fix gemfile. Template messed it up :-( "
 
 # things
