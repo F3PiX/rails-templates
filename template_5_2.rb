@@ -1,8 +1,5 @@
-puts 'Template_5_2'
-puts 'My first template, by Maud de Vries'
 
 # gems
-gem 'webpacker', '~> 3.5', '>= 3.5.3'
 gem_group :development, :test do
   gem 'better_errors'
 end
