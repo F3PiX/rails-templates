@@ -16,7 +16,6 @@ rails_command("db:migrate")
 
 # installs after bundle
 after_bundle do
-  rails_command "webpacker:install"
   git add: "."
   git commit: %Q{ -m 'Init commit with template_5_2' }
 end
